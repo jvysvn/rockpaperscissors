@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #013b58;
+}
+
+.container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #00273a;
+  border-radius: 15px;
+  gap: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 35px;
+}
+
+.card {
+  height: 200px;
+  width: 150px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.alerts {
+  color: #ade9c3;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  color: #b8b7b7;
+}
+
+.player,
+.cpu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player {
+  color: #ed9f55;
+}
+
+.cpu {
+  color: #a376e1;
+}
+
+.player-scorecard,
+.cpu-scorecard {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#rock {
+  background-color: #fff;
+  color: #06b600;
+  border: 2px solid #06b600;
+  font-size: 32px;
+}
+
+#rock:hover {
+  background-color: #06b600;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+#paper {
+  background-color: #fff;
+  color: #9009ff;
+  border: 2px solid #9009ff;
+  font-size: 32px;
+}
+
+#paper:hover {
+  background-color: #9009ff;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+#scissors {
+  background-color: #fff;
+  color: #ff1a1a;
+  border: 2px solid #ff1a1a;
+  font-size: 32px;
+}
+
+#scissors:hover {
+  background-color: #ff1a1a;
+  color: #fff;
+  transition: all 0.5s ease;
+}
